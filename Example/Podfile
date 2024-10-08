@@ -1,0 +1,13 @@
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, '13.0'
+use_frameworks!
+inhibit_all_warnings!
+
+target 'GDTMobSDK-iOS-XCFramework_Example' do
+  pod 'GDTMobSDK-iOS-XCFramework', :path => '../'
+  
+  target 'GDTMobSDK-iOS-XCFramework_Tests' do
+    inherit! :search_paths
+  end
+end

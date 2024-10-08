@@ -1,0 +1,16 @@
+PODS:
+  - GDTMobSDK-iOS-XCFramework (0.1.0)
+
+DEPENDENCIES:
+  - GDTMobSDK-iOS-XCFramework (from `../`)
+
+EXTERNAL SOURCES:
+  GDTMobSDK-iOS-XCFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GDTMobSDK-iOS-XCFramework: 87b66792fd1186a666b217652350eedac3cc2233
+
+PODFILE CHECKSUM: 1a3c291d347baff2a8c25642a58c3d635ed6932f
+
+COCOAPODS: 1.15.2
